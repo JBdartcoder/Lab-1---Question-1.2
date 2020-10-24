@@ -52,7 +52,7 @@ class Car:
         plt.ylabel('y (m)')
         plt.show()
 
-
-# Declare car with steering angle 2 deg for time 2s
+# Declare car with steering angle -2 deg for time 2s
+# Angle is -2 deg as frame of reference states that positive angles are anticlockwise
 ronald = Car()
-ronald.move(np.deg2rad(2), 2)   # 2 deg converted to rads
+ronald.move(np.deg2rad(-2), 2)   # 2 deg converted to rads
